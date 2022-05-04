@@ -1,0 +1,134 @@
+body {
+    background: #f7f7f7;
+    font-family: Arial;
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* cabecalho da página */
+
+/* logo da marca */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    margin: 1px;
+}
+
+/* botões do cabeçalho da página inicial */
+.botoesmenu {
+    font-size: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 200px;
+    text-align: center;
+}
+
+/* animação do botões do cabelçalho */
+.botoesmenu:hover {
+    cursor: pointer;
+    background: #ffe93f;
+}
+
+/* organizando os botões do cabelçalho em flexbox */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+
+/* conteudo principal da página */
+
+
+/* organizando em grid o conteudo da página principal */
+.conteudo {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin: 50px;
+    place-content: center;
+}
+
+/* ajustando tamanho da imagem do bloco2 conteudo principal */
+.bicicletahome {
+
+    width: 500px;
+}
+
+/* alterando background e box-model do bloco1 */
+.bloco1 {
+    background: white;
+    padding: 50px;
+    text-align: right;
+}
+
+/* botão do bloco1 "veja mais" */
+.button {
+    background: #ee2211;
+    padding: 20px;
+    border-radius: 100px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+
+/* animação do botão bloco1 "veja mais" */
+.button:hover {
+    background: #babad9;
+    cursor: pointer;
+}
+
+/* nome "Vantagem Bickcraft no bloco3 */
+.nomebloco3 {
+
+    font-size: 64px;
+    color: #c6c6c6;
+    padding: 40px;
+    text-align: right;
+
+}
+
+/* animação no nome "Vantagem Bickcraft no bloco3 */
+.nomebloco3:hover {
+    color: #ffe93f;
+    cursor: default;
+}
+
+/* bloco 4 */
+.bloco4 {
+    background: white;
+    padding: 20px;
+    text-align: left;
+}
+
+/* uso do grid para organizar icons do bloco 4 */
+.iconsbloco4 {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+}
+
+/* ajuste dos icon do bloco4 com positions */
+.icon {
+
+    padding: 5px;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
+
+/* rodapé da página */
+.rodape {
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+    padding: 10px;
+
+}
