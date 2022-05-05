@@ -1,2 +1,2 @@
-# bikecraft-P1
+# bikecraft
 Meu projeto do curso Origamid usando HTML e CSS3
