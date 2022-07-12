@@ -5,7 +5,8 @@
 <head>
 
     <meta charset="UTF-8">
-    <title> BikeCraft </title>
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <title> BikCraft </title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/img/eletrica.svg">
 
@@ -13,97 +14,108 @@
 
 <body>
 
-    <!-- logo da empresa -->
-    <div class="logo">
+    <!-- Cabecalho da pagina -->
+    <header>
+        <!-- logo da empresa -->
+        <div class="logo">
 
-        <img src="/img/bikcraft.svg" alt="logo da empresa bikcraft" title="logo">
+            <img src="/img/bikcraft.svg" alt="logo da empresa bikcraft" title="logo">
 
-    </div>
+        </div>
 
-    <!-- botões do cabeçalho da página principal -->
-    <div class="menu">
+        <!-- menu de navegação dentro da página principal -->
+        <nav aria-label="primaria">
 
-        <p class="botoesmenu"> SOBRE </p>
-        <p class="botoesmenu"> PRODUTOS </p>
-        <p class="botoesmenu"> LOJAS </p>
-        <p class="botoesmenu"> CONTATO </p>
+            <ul class="menu">
+                <li class="botoesmenu"> <a> SOBRE </a> </li>
+                <li class="botoesmenu"> <a> PRODUTOS </a> </li>
+                <li class="botoesmenu"> <a> LOJAS </a> </li>
+                <li class="botoesmenu"> <a> CONTATO </a> </li>
+            </ul>
 
-    </div>
+        </nav>
+    </header>
 
-    <!-- conteudo principal da página  -->
-    <div class="conteudo">
+    <!-- conteudo principal da página -->
+    <main class="conteudo">
 
         <!-- bloco 1 explicação -->
-        <div class="bloco1">
+        <article>
+            <div class="bloco1">
 
-            <h1>Bicletas Feitas a Mão </h1>
-            <p>A Nimbus Stark é a melhor Bikcraft já criada</br>
-                pela nossa equipe. Ela vem equipada com</br>
-                os melhores acessórios da marca.</p>
+                <h1>Bicletas Feitas a Mão </h1>
+                <p>A Nimbus Stark é a melhor Bikcraft já criada</br>
+                    pela nossa equipe. Ela vem equipada com</br>
+                    os melhores acessórios da marca.</p>
 
-            <button class="button"> VER MAIS </button>
+                <button class="button"> VER MAIS </button>
 
-        </div>
+            </div>
+        </article>
 
         <!-- bloco 2 imagem da bicicleta-->
-        <div>
+        <article>
+            <div>
 
-            <img src="/img/bicicleta.jpg" class="bicicletahome" alt="uma amostra da bicicleta vendida 
+                <img src="/img/bicicleta.jpg" class="bicicletahome" alt="uma amostra da bicicleta vendida 
                 pela bikecraft da cor preta em um fundo fosco" title="nosso modelo princial">
 
-        </div>
+            </div>
+        </article>
 
         <!-- bloco 3 vantagem bickcraft -->
-        <div>
+        <article>
+            <div>
 
-            <h2 class="nomebloco3"> VANTAGENS BIKCRAFT </h2>
-
-        </div>
-
-        <!-- bloco 4  icons bickcraft-->
-        <div class="bloco4">
-
-            <div class="iconsbloco4">
-
-                <!-- icon do motor eletrico -->
-                <div class="icon">
-
-                    <p> <img src="/img/eletrica.svg"><b> Motor Elétrico </b> </p>
-
-                    <p> Permite você viajar distâncias </br>
-                        inimaginaveis com a sua bike. </p>
-
-                </div>
-
-                <!-- icon do velocimetro -->
-                <div class="icon">
-
-                    <p> <img src="/img/velocidade.svg"> <b> 40 km/h </b> </p>
-                    <p> A mais rápida bicicleta elétrica </br> disponível hoje no mercado.</p>
-
-                </div>
-
-                <!-- icon do rastreador  -->
-                <div class="icon">
-
-                    <p><img src="/img/rastreador.svg"> <b> Rastreador </b> </p>
-                    <p> Rastreador e sistema anti-furto </br> para garantir o seu sossego. </p>
-
+                <div class="ondas">
+                    <h2 class="nomebloco3"> VANTAGENS BIKCRAFT </h2>
                 </div>
 
             </div>
+        </article>
+
+        <!-- bloco 4  icons bickcraft-->
+        <article class="bloco4" class="center">
+
+            <ul class="iconsbloco4">
+
+                <!-- icon do motor eletrico -->
+                <li class="icon">
+
+                    <h3> <img src="/img/eletrica.svg" class="spaceicon"> Motor Elétrico </h3>
+
+                    <p class="center"> Permite você viajar distâncias
+                        inimaginaveis com a sua bike. </p>
+
+                </li>
+                <!-- icon do velocimetro -->
+                <li class="icon">
+
+                    <h3> <img src="/img/velocidade.svg" class="spaceicon"> 40 km/h </h3>
+                    <p class="center"> A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+
+                </li>
+                <!-- icon do rastreador  -->
+                <li class="icon">
+                    <h3><img src="/img/rastreador.svg" class="spaceicon"> Rastreador </h3>
+                    <p class="center"> Rastreador e sistema anti-furto para garantir o seu sossego. </p>
+                </li>
+            </ul>
+
+
+        </article>
+
+    </main>
+
+    <!-- rodapé da página -->
+    <footer>
+        <div class="rodape">
+
+            <p> Edgar Vitor - Projeto Curso </p>
+            <p style="text-align: center;"> 2022 </p>
 
         </div>
-
-    </div>
-
-    <!-- rodapé da página  -->
-    <div class="rodape">
-
-        <p> Edgar Vitor - Projeto Curso </p>
-        <p style="text-align: center;"> 2022 </p>
-
-    </div>
+    </footer>
 
 </body>
 
